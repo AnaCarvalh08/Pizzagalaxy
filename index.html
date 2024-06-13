@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e2153050a6.js" crossorigin="anonymous"></script>
+    <title>Pizzagalaxy</title>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <div>
+                <img width="150px" src="./pizzagala.png" alt="logo-pizzagalaxy">
+            </div>
+
+            <div class="center item-menu">
+                <i class="fa-solid fa-pizza-slice"></i>
+                <a class="aEstilizacao" href="#cardapio">Cardápio</a>
+            </div>
+
+            <div class="center item-menu">
+                <i class="fa-solid fa-circle-info"></i>
+                <a class="aEstilizacao" href="">Sobre</a>
+            </div>
+
+            <div class="center item-menu">
+                <i class="fa-solid fa-user"></i>
+                <a class="aEstilizacao" href="">Contato</a>
+            </div>
+        </div>
+
+        <div class="btPedido">
+            <a class="aPedido" href="">Fazer Pedido</a>
+        </div>
+    </nav>
+
+    <section class="home">
+        <h1>Pizzagalaxy</h1>
+        <h2>Pizzas de outro planeta <img class="img-alien" width="65px" src="./alien.png" alt=""></h2>
+
+    </section>
+
+    <section class="cardapio" id="cardapio">
+        <h2 class="h2Cardapio">Cardápio</h2>
+
+        <h2 class="h2Tamanhos">Tamanhos</h2>
+        <div class="centerTamanhos">
+
+            <div class="divTamanhoBroto">
+                <img class="img-pizza-tamanho"
+                    src="./pizza-vetor-de-comida-restaurante-italiano-ilustracao-pizzeria-menu-isolado-queijo-fatia-bac_1013341-24516-removebg-preview 1.png"
+                    alt="Pizza">
+
+                <div class="descricao-produto">
+                    <h3>Broto</h3>
+                    <p>4 pedaços</p>
+                    <p>1 sabor</p>
+                    <button class="botaoAdicionar">+</button>
+                </div>
+            </div>
+
+
+            <div class="divTamanhoMedio">
+                <img class="img-pizza-tamanho"
+                    src="./pizza-vetor-de-comida-restaurante-italiano-ilustracao-pizzeria-menu-isolado-queijo-fatia-bac_1013341-24516-removebg-preview 1.png"
+                    alt="Pizza">
+
+                <div class="descricao-produto">
+                    <h3>Média</h3>
+                    <p>6 pedaços</p>
+                    <p>2 sabores</p>
+                    <button class="botaoAdicionar">+</button>
+                </div>
+            </div>
+
+            <div class="divTamanhoGrande">
+                <img class="img-pizza-tamanho"
+                    src="./pizza-vetor-de-comida-restaurante-italiano-ilustracao-pizzeria-menu-isolado-queijo-fatia-bac_1013341-24516-removebg-preview 1.png"
+                    alt="Pizza">
+
+                <div class="descricao-produto">
+                    <h3>Grande</h3>
+                    <p>8 pedaços</p>
+                    <p>2 sabores</p>
+                    <button class="botaoAdicionar">+</button>
+                </div>
+            </div>
+
+            <div class="divTamanhoBig">
+                <img class="img-pizza-tamanho"
+                    src="./pizza-vetor-de-comida-restaurante-italiano-ilustracao-pizzeria-menu-isolado-queijo-fatia-bac_1013341-24516-removebg-preview 1.png"
+                    alt="Pizza">
+
+                <div class="descricao-produto">
+                    <h3>Big</h3>
+                    <p>12 pedaços</p>
+                    <p>3 sabores</p>
+                    <button class="botaoAdicionar">+</button>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Inicío Sabores-->
+        <div class="sabores">
+            <h2 class="h2Sabores">Sabores</h2>
+            <div class="accordion-sabores">
+                <button class="bt-accordion">Salgadas</button>
+                <div class="painel-sabores">
+                    <div class="sabores-opcao">
+                        <h3>Calabresa</h3>
+                        <p> Queijo muçarela e calabresa</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Frango</h3>
+                        <p> Queijo muçarela, frango e orégano</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Havaiana</h3>
+                        <p> Queijo muçarela, lombinho, abacaxi e orégano</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Portuguesa</h3>
+                        <p> Queijo muçarela, presunto, ovos, cebola, azeitonas e orégano</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Palmito</h3>
+                        <p> Queijo muçarela, palmito e orégano</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Strogonoff</h3>
+                        <p> Queijo muçarela, strogonoff de carne ou frango, batata palha, champignon e orégano</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Barbecue</h3>
+                        <p> Queijo muçarela, molho barbecue, strogonoff, cheddar, bacon, cebola ou cebola crocante</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Vegetariana</h3>
+                        <p> Queijo muçarela, escarola, tomate seco, champignon, brócolis, pimentão e orégano</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Marguerita</h3>
+                        <p> Queijo muçarela, tomate, manjericão e orégano</p>
+                        <button class="botaoAdicionar">+</button>
+                        <Hr>
+                        </Hr>
+
+                        <h3>Romanesca</h3>
+                        <p> Queijo muçarela, frango, tomate, bacon e orégano</p>
+                        <button class="botaoAdicionar">+</button>
+
+                    </div>
+                </div>
+                <button class="bt-accordion">Doces</button>
+                <div class="painel-sabores">
+                    <h3>Banana Nevada</h3>
+                    <p> Queijo muçarela, molho doce, banana, chocolate branco, coco ralado e leite condensado</p>
+                    <button class="botaoAdicionar">+</button>
+                    <Hr>
+                    </Hr>
+
+                    <h3>Chocolate</h3>
+                    <p> Queijo muçarela, molho doce, chocolate preto ou branco e leite condensado</p>
+                    <button class="botaoAdicionar">+</button>
+                    <Hr>
+                    </Hr>
+
+                    <h3>Chocolate com Morango</h3>
+                    <p> Queijo muçarela, molho doce, chocolate preto ou branco, leite condensado e morango</p>
+                    <button class="botaoAdicionar">+</button>
+                    <Hr>
+                    </Hr>
+
+                    <h3>Charge</h3>
+                    <p> Queijo muçarela, molho doce, abacaxi, péssego, ameixa, figo, cereja e leite condensado</p>
+                    <button class="botaoAdicionar">+</button>
+                    <Hr>
+                    </Hr>
+
+                    <h3>Dois Amores</h3>
+                    <p> Queijo muçarela, molho doce, chocolate preto e branco e leite condensado</p>
+                    <button class="botaoAdicionar">+</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <img id="alienPizzaioloImg" src="./alienPizzaiolo.jpg" alt="imagem ilustrativa">
+        <div class="texto-sobre-nos">
+            <h3 class="h3Sobre"> Sobre nós</h3>
+            <h4> História de Zyanim</h4>
+            <p class="p-sobre-pizzaria"> Zyanim, um alienígena de Pizzagalaxy, abre uma pizzaria na Terra, combinando
+                ingredientes terrestres com os segredos culinários de seu planeta. Apesar das primeiras desconfianças,
+                suas pizzas únicas conquistam os terráqueos, tornando-se uma sensação global. Zyanim se torna uma lenda,
+                compartilhando não apenas sua culinária, mas também amizade e compreensão entre os mundos.</p>
+            <h4> Fundação</h4>
+            <p> Ana fundou a Pizzagalaxy, uma pizzaria única que combina sua paixão pela culinária com sua fascinação
+                pelo universo. Cada pizza é uma jornada cósmica, representando uma constelação diferente. Com
+                ingredientes frescos e criatividade, Ana criou um lugar onde os sonhos se encontram com a realidade,
+                oferecendo uma experiência gastronômica intergaláctica.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-conteudo">
+            
+            <div class="atendimento">
+                <h4>Horário de Atendimento</h4>
+                <p>Segunda a Sexta das 10h00 ás 23h00</p>
+                <p>Sabado a Domingo das 10h00 ás 20h00</p>
+            </div>
+
+            <img width="150px" src="./pizzagala.png" alt="logo-pizzagalaxy">
+
+            <div class="fale-conosco">
+                <h4>Fale conosco</h4>
+                <img class="img-footer" src="./telefone.png" alt="img-telefone">
+                <a href="" target="_blank"> +55 (41)998289999</a>
+
+                <img class="img-footer"  src="./whatsapp.png" alt="img-whatsapp">
+                <a href="" target="_blank"> +55 (41)998289098</a>
+
+                <img class="img-footer"  src="./email.png" alt="img-email">
+                <a href="mailto:pizzagalaxy@email.com">pizzagalaxy@email.com</a>
+
+                <img class="img-footer"  src="./endereco.png" alt="img-endereco">
+                <a href="">Rua José Messias, 1521</a>
+            </div>
+
+            <div class="reserva">
+                <h4>Reseve o seu lugar</h4>
+                <p> De preferência reserve o seu lugar com 24hs de antecedência.</p>
+
+                <a href=""><img class="img-footer"  src="./instagram.png" alt="img-insta"></a>
+                <a href=""><img class="img-footer"  src="./facebook.png" alt="img-facebook"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
