@@ -88,8 +88,7 @@ h2 {
 }
 
 .cardapio {
-    height: 100vh;
-
+    height: 100%;
     /* border: 1px solid rgb(0, 255, 64);*/
 }
 
@@ -234,6 +233,13 @@ footer {
     background-color: #FFBD1F;
     font-size: larger;
     text-align: left;
+    
+}
+
+.footer-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
 }
 
 .footer-conteudo a {
@@ -248,17 +254,26 @@ footer {
 
 .atendimento {
     display: inline-block;
-    margin-left: 25px;
+    
 }
 
 .fale-conosco {
     display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
+   
 }
 
 ul {
     list-style: none;
+}
+
+li{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+li a{
+    margin-left: 10px;
 }
 
 .img-footer {
@@ -268,5 +283,5 @@ ul {
 
 .reserva {
     display: inline-block;
-    margin-right: 25px;
+    
 }
